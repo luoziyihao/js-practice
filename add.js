@@ -11,21 +11,24 @@
 const zero = f => x => x;
 
 // 定义数字1:
-#var one = function (f) {
-#    return function (x) {
-#        return f(x);
-#    }
-#};
+//var one = function (f) {
+//    return function (x) {
+//        return f(x);
+//    }
+//};
+
+const one = f => x => f(x);
 
 // 定义加法:
-function add(n, m) {
-    return function (f) {
-        return function (x) {
-            return m(f)(n(f)(x));
-        }
-    }
-}
+// function add(n, m) {
+    // return function (f) {
+        // return function (x) {
+            // return m(f)(n(f)(x));
+        // }
+    // }
+// }
 
+const add = (n, m) => f => x => m(f)(n(f)(x));
 
 // 计算数字2 = 1 + 1:
 var two = add(one, one);
