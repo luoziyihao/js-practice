@@ -1,5 +1,6 @@
+package com.luozi.closure;
 
-public class Closure{
+public class AnonymousInnerClassClosure {
 
     interface Cmd{
         void apply();
