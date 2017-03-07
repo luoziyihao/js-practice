@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
-<script src="init.js"></script>
-<script>
   'use strict'
 
   console.log("##########")
@@ -148,5 +137,4 @@
     info(xiaoming.age())
 
   console.log("apply##########")
-</script>
 

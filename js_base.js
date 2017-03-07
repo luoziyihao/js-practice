@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
-<script>
   'use strict'
   var s = 'hello, world';
   var arr = ['小明', '小红', '大军', '阿黄'];
@@ -220,5 +210,3 @@
   console.log("##########")
   const PI = 3.14;  //final static
   //  PI = 1;
-
-</script>

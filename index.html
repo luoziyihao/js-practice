@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let foo5 = () => {
+        for(let i = 0; i < 5; i++) {
+            setTimeout((i => console.info(i))(i), i * 1000);
+        }
+    };
+    foo5();
+</script>
+</body>
+</html>
