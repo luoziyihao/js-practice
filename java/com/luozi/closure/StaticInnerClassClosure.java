@@ -9,6 +9,9 @@ public class StaticInnerClassClosure {
         return new Cmd().grow();
     }
 
+    /**
+     * static inner class is bound with class object, so it is only able to visit the static property of outer class
+     */
     private static class Cmd{
 
         public int grow() {
